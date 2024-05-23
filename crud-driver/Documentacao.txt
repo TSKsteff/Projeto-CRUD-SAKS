@@ -1,0 +1,29 @@
+Conecão com o Driver Mysql.
+
+Passo 1: Instalar o Driver MySQL
+    - Baixar o Driver:
+        O driver JDBC do MySQL pode ser baixado diretamente do site do MySQL ou pode ser gerenciado automaticamente pelo
+        IntelliJ.
+
+    - Adicionar o Driver no IntelliJ:
+        No IntelliJ IDEA, vá para File > Project Structure > Modules > Dependencies.
+        Clique no ícone + para adicionar um novo JAR ou diretório.
+        Navegue até onde você baixou o driver JDBC do MySQL (normalmente um arquivo .jar) e adicione-o.
+
+Passo 2: Configurar a Conexão com o Banco de Dados
+
+    - Abrir a Janela de Conexão:
+        Vá para View > Tool Windows > Database (ou pressione Alt+1).
+        Clique no ícone + para adicionar uma nova conexão de banco de dados e selecione Data Source > MySQL.
+
+    - Configurar os Detalhes da Conexão:
+        Na janela que se abre, insira os detalhes da conexão, como o nome do host, porta (3306 por padrão), nome do
+        banco de dados, usuário e senha.
+        A URL JDBC será algo como jdbc:mysql://localhost:3306/nome_do_banco.
+
+    - Baixar o Driver (se necessário):
+        IntelliJ pode solicitar o download do driver se ele ainda não estiver disponível. Clique em "Download" se for o caso.
+
+    - Testar a Conexão:
+        Após inserir os detalhes, clique em Test Connection para verificar se a conexão foi estabelecida corretamente.
+        Se houver erros, eles serão exibidos na janela e você poderá ajustá-los conforme necessário.
