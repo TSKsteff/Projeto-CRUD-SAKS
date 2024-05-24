@@ -3,10 +3,6 @@
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 R
 "src/main/java/br/univali/Main.java,b\5\b510ee5924a717f4c0128ba7b17ac88ae877bbaa
-L
-src/main/java/bt/config.java,a\4\a4bb448b4e2b354ecf8564ceec8bb356790a4ef4
-[
-+src/main/java/br/univali/config/config.java,0\2\020a421893e58ee45d1a789f4ab7f088fe401f19
 P
  src/main/java/config/config.java,9\a\9aef22d1e8dac99c17899951b51b183ceba31daa
 P
